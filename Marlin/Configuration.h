@@ -88,12 +88,14 @@
 
 // Show the Marlin bootscreen on startup. ** ENABLE FOR PRODUCTION **
 #define SHOW_BOOTSCREEN
+// Actual Marlin static bootscreen logo is disabled at : /data/home/Downloads/Marlinfw/Marlin-2.0.x/Marlin/src/lcd/dogm/ultralcd_DOGM.cpp
+// Search in that file using #disabled_code
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
-#define SHOW_CUSTOM_BOOTSCREEN
+ #define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
-//#define CUSTOM_STATUS_SCREEN_IMAGE
+// #define CUSTOM_STATUS_SCREEN_IMAGE
 
 // @section machine
 
@@ -146,6 +148,8 @@
 // This defines the number of extruders
 // :[0, 1, 2, 3, 4, 5, 6, 7, 8]
 #define EXTRUDERS 1
+// When upgraded to 2 extruder uncomment below code:
+// #define EXTRUDERS 2 
 
 // Generally expected filament diameter (1.75, 2.85, 3.0, ...). Used for Volumetric, Filament Width Sensor, etc.
 #define DEFAULT_NOMINAL_FILAMENT_DIA 1.75
@@ -613,7 +617,7 @@
 
 // Uncomment one of these options to enable CoreXY, CoreXZ, or CoreYZ kinematics
 // either in the usual order or reversed
-#define COREXY
+#define COREXY2
 //#define COREXZ
 //#define COREYZ
 //#define COREYX
@@ -1506,10 +1510,35 @@
 #define PREHEAT_1_TEMP_BED     70
 #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
 
+// Preheat Constants
 #define PREHEAT_2_LABEL       "ABS"
 #define PREHEAT_2_TEMP_HOTEND 240
 #define PREHEAT_2_TEMP_BED    110
 #define PREHEAT_2_FAN_SPEED     0 // Value from 0 to 255
+
+// Preheat Constants
+#define PREHEAT_3_LABEL       "PET"
+#define PREHEAT_3_TEMP_HOTEND 280
+#define PREHEAT_3_TEMP_BED     70
+#define PREHEAT_3_FAN_SPEED     0 // Value from 0 to 255
+
+// Preheat Constants
+#define PREHEAT_4_LABEL       "PP"
+#define PREHEAT_4_TEMP_HOTEND 280
+#define PREHEAT_4_TEMP_BED     70
+#define PREHEAT_4_FAN_SPEED     0 // Value from 0 to 255
+
+// Preheat Constants
+#define PREHEAT_5_LABEL       "PE"
+#define PREHEAT_5_TEMP_HOTEND 280
+#define PREHEAT_5_TEMP_BED     70
+#define PREHEAT_5_FAN_SPEED     0 // Value from 0 to 255
+
+// Preheat Constants
+// #define PREHEAT_6_LABEL       "PS"
+// #define PREHEAT_6_TEMP_HOTEND 280
+// #define PREHEAT_6_TEMP_BED     70
+// #define PREHEAT_6_FAN_SPEED     0 // Value from 0 to 255
 
 /**
  * Nozzle Park
