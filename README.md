@@ -15,6 +15,7 @@ To build Marlin 2.0.6 we are using [PlatformIO](http://docs.platformio.org/en/la
 
 ## Marlin Firmware:
 I sincerely thank Marlin Firmware project Authors, Maintainers and Contributors for their contribution to project.\
+<img align="right" width=175 src="images/corexy_custom_bootscreen_crop.gif" />
 If you wish to contribute to original Marlin Firmware Project, you should definitely check out links below:
   - [Marlin Firmware Github Page](https://github.com/MarlinFirmware/Marlin.git)
   - [Marlin Firmware Website](https://marlinfw.org/)
