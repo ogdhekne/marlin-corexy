@@ -15,7 +15,6 @@ To build Marlin 2.0.6 we are using [PlatformIO](http://docs.platformio.org/en/la
 
 ## Marlin Firmware:
 I sincerely thank Marlin Firmware project Authors, Maintainers and Contributors for their contribution to project.\
-<img align="right" width=175 src="images/corexy_custom_bootscreen_crop.gif" />
 If you wish to contribute to original Marlin Firmware Project, you should definitely check out links below:
   - [Marlin Firmware Github Page](https://github.com/MarlinFirmware/Marlin.git)
   - [Marlin Firmware Website](https://marlinfw.org/)
@@ -26,6 +25,7 @@ If you wish to contribute to original Marlin Firmware Project, you should defini
 I have disabled / commented Marlin static bootscreen which includes Marlin firmware logo, version and website URL.
   - Actual Marlin static bootscreen logo is disabled at : [Marlin/src/lcd/dogm/ultralcd_DOGM.cpp](https://raw.githubusercontent.com/ogdhekne/marlin-corexy/master/Marlin/src/lcd/dogm/ultralcd_DOGM.cpp)
   - Search in that file using #disabled_code
+<img align="right" width=175 src="images/corexy_custom_bootscreen_crop.gif" />
 
 ## License
 
