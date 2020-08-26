@@ -16,7 +16,7 @@ To build Marlin 2.0.6 we are using [PlatformIO](http://docs.platformio.org/en/la
 ## Modifications
 
 I have disabled / commented Marlin static bootscreen which includes Marlin firmware logo, version and website URL.
-  - Actual Marlin static bootscreen logo is disabled at : Marlin/src/lcd/dogm/ultralcd_DOGM.cpp
+  - Actual Marlin static bootscreen logo is disabled at : [Marlin/src/lcd/dogm/ultralcd_DOGM.cpp](https://raw.githubusercontent.com/ogdhekne/marlin-corexy/master/Marlin/src/lcd/dogm/ultralcd_DOGM.cpp)
   - Search in that file using #disabled_code
 
 ## License
