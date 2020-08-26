@@ -14,7 +14,7 @@ To build Marlin 2.0.6 we are using [PlatformIO](http://docs.platformio.org/en/la
   [Geeetech AVR](https://www.geeetech.com/gt2560-a-3d-printer-controller-board-p-915.html)|ATmega|GT2560 Rev A+
 
 ## Marlin Firmware:
-I sincerely thank Marlin Firmware project Authors, Maintainers and Contributors for their contribution to project.(space)
+I sincerely thank Marlin Firmware project Authors, Maintainers and Contributors for their contribution to project. (space, space)
 If you wish to contribute to original Marlin Firmware Project, you should definitely check out links below:
   - [Marlin Firmware Github Page](https://github.com/MarlinFirmware/Marlin.git)
   - [Marlin Firmware Website](https://marlinfw.org/)
