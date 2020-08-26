@@ -22,6 +22,7 @@ If you wish to contribute to original Marlin Firmware Project, you should defini
 
 ## Modifications
 <img align="right" width=175 src="images/corexy_custom_bootscreen_crop.gif" />
+
 I have disabled / commented Marlin static bootscreen which includes Marlin firmware logo, version and website URL.
   - Actual Marlin static bootscreen logo is disabled at : [Marlin/src/lcd/dogm/ultralcd_DOGM.cpp](https://raw.githubusercontent.com/ogdhekne/marlin-corexy/master/Marlin/src/lcd/dogm/ultralcd_DOGM.cpp)
   - Search in that file using #disabled_code
