@@ -27,6 +27,10 @@ I have disabled / commented Marlin static bootscreen which includes Marlin firmw
   - Actual Marlin static bootscreen logo is disabled at : [Marlin/src/lcd/dogm/ultralcd_DOGM.cpp](https://raw.githubusercontent.com/ogdhekne/marlin-corexy/master/Marlin/src/lcd/dogm/ultralcd_DOGM.cpp)
   - Search in that file using #disabled_code
 
+GIMP            | RepRapDiscount Full Graphic Smart Controller
+:--------------:|:-------------------------------------------:
+![](images/corexy_bootscreen_1.png)|![](images/corexy_custom_bootscreen_crop.gif)
+
 ## License
 
 Marlin is published under the [GPL license](https://github.com/ogdhekne/marlin-corexy/blob/master/LICENSE) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
