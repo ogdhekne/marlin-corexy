@@ -27,8 +27,8 @@ I have disabled / commented Marlin static bootscreen which includes Marlin firmw
 
 GIMP            | RepRapDiscount Full Graphic Smart Controller
 :--------------:|:-------------------------------------------:
-<img src="images/corexy_bootscreen_1.png" />|<img width=175 src="images/corexy_custom_bootscreen_crop.gif" />
-<img src="images/animated_bootscreen/animated_bootscreen_input.gif" />|<img width=175 src="images/animated_bootscreen/animated_bootscreen_output.gif" />
+<img width=175 src="images/corexy_bootscreen_1.png" />|<img width=175 src="images/corexy_custom_bootscreen_crop.gif" />
+<img width=175 src="images/animated_bootscreen/animated_bootscreen_input.gif" />|<img width=175 src="images/animated_bootscreen/animated_bootscreen_output.gif" />
 
 ## License
 
