@@ -90,8 +90,8 @@
 #ifndef MACHINE_UUID
   #define MACHINE_UUID DEFAULT_MACHINE_UUID
 #endif
-
-#define MARLIN_WEBSITE_URL "https://marlinfw.org"
+// Removed marlin firmware's website: #disabled_code
+ #define MARLIN_WEBSITE_URL ""
 
 //#if !defined(STRING_SPLASH_LINE3) && defined(WEBSITE_URL)
 //  #define STRING_SPLASH_LINE3 WEBSITE_URL
