@@ -92,7 +92,7 @@
 // Search in that file using #disabled_code
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
-// #define SHOW_CUSTOM_BOOTSCREEN  // commented this line to show animated bootscreen.
+ #define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
 // #define CUSTOM_STATUS_SCREEN_IMAGE

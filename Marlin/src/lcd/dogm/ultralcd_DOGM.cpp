@@ -167,7 +167,7 @@ bool MarlinUI::detected() { return true; }
   // or the animated boot screen within its own u8g loop
 
   // # Below code is disabled for marlin static image bootscreen # start # #disabled_code , dated: 26-Aug-2020 | 3:16 AM IST
-   // /*
+  /*
   void MarlinUI::draw_marlin_bootscreen(const bool line2) { //=false
 
     // Determine text space needed
@@ -220,13 +220,13 @@ bool MarlinUI::detected() { return true; }
       }
     #endif
   }
-  // */
+  */
   // # End # #disabled_code
 
   // Show the Marlin bootscreen, with the u8g loop and delays
 
   // # Below code is disabled for marlin static image bootscreen # start # #disabled_code , dated: 26-Aug-2020 | 3:16 AM IST
-  // /*
+  /*
   void MarlinUI::show_marlin_bootscreen() {
     constexpr uint8_t pages = two_part ? 2 : 1;
     for (uint8_t q = pages; q--;) {
@@ -234,12 +234,12 @@ bool MarlinUI::detected() { return true; }
       safe_delay((BOOTSCREEN_TIMEOUT) / pages);
     }
   }
-  // */
+  */
   // #  End # #disabled_code
 
   void MarlinUI::show_bootscreen() {
     TERN_(SHOW_CUSTOM_BOOTSCREEN, show_custom_bootscreen());
-    show_marlin_bootscreen(); // This is also need to comment. #disabled_code
+//    show_marlin_bootscreen(); // This is also need to comment. #disabled_code
   }
 
 #endif // SHOW_BOOTSCREEN
