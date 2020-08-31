@@ -499,8 +499,11 @@
   //   };
 
   // #endif
+<<<<<<< HEAD
 
 // COREXY : custom animated bootscreen.
+=======
+>>>>>>> 094347d... animated boot screen.
 
   const unsigned char start_bmp[] PROGMEM = {
     0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,
